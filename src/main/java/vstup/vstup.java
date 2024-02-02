@@ -10,6 +10,6 @@ public class vstup
         String retezec;
         System.out.println("Zadej jméno příjmení");
         retezec = in.nextLine();
-        System.out.println("Dobrý den pane" + retezec);
+        System.out.println("Dobrý den pane " + retezec);
     }
 }
