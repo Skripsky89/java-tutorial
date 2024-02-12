@@ -2,17 +2,14 @@ package prvocisla_hruba_metoda;
 
 import java.util.Scanner;
 
-import static java.lang.Math.sqrt;
-
 public class verze_1
 {
     public static void main(String []args)
     {
-        int zbytek = 0;
+        int zbytek;
 
-        int krok = 0;
+        int krok;
 
-        int k =0;
         Scanner in = new Scanner(System.in);
         System.out.println("Zde zadejte číslo od kterého chcete kontrolovat prvočísla");
         int odkolika = in.nextInt();
